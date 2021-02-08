@@ -11,3 +11,53 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.cable{
+    width: 10px;
+    height: 80px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.rectangulo{
+    background-color: black;
+    width: 80px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+}
+
+.rojo{
+ width: 50px;
+ height: 50px;
+ background-color: red;
+ margin: 0 auto;
+ border-radius: 50%;
+
+}
+
+.amarillo{
+ width: 50px;
+ height: 50px;
+ background-color:yellow;
+ margin: 0 auto;
+ border-radius: 50%;
+
+}
+
+.verde{
+ width: 50px;
+ height: 50px;
+ background-color:green;
+ margin: 0 auto;
+ border-radius: 50%;
+
+}
+
+.seleccionado{
+    border: solid 10px gold;
+}
